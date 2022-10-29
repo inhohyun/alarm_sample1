@@ -18,7 +18,8 @@
             android:text="Schedule Alarm"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center_horizontal" />
 
         <LinearLayout
             android:id="@+id/fragment_createalarm_timePickerLayout"

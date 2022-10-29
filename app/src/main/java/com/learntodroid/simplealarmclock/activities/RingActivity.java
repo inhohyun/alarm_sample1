@@ -12,9 +12,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.learntodroid.simplealarmclock.R;
-import com.learntodroid.simplealarmclock.createalarm.TimePickerUtil;
 import com.learntodroid.simplealarmclock.data.Alarm;
-import com.learntodroid.simplealarmclock.service.AlarmService;
+import com.learntodroid.simplealarmclock.createalarm.service.AlarmService;
 
 import java.util.Calendar;
 import java.util.Random;

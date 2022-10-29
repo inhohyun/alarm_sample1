@@ -1,4 +1,4 @@
-package com.learntodroid.simplealarmclock.service;
+package com.learntodroid.simplealarmclock.createalarm.service;
 
 import android.app.Notification;
 import android.app.PendingIntent;

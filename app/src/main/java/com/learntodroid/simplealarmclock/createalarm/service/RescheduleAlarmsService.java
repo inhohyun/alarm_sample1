@@ -1,4 +1,4 @@
-package com.learntodroid.simplealarmclock.service;
+package com.learntodroid.simplealarmclock.createalarm.service;
 
 import android.app.Application;
 import android.app.Service;
