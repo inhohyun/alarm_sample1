@@ -15,7 +15,7 @@
             android:id="@+id/fragment_createalarm_scheduleAlarmHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="알람 설정하기"
+            android:text="Schedule Alarm"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintTop_toTopOf="parent"
@@ -45,15 +45,21 @@
                 android:timePickerMode="spinner" />
         </LinearLayout>
 
+        <EditText
+            android:id="@+id/fragment_createalarm_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alarm Title"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_createalarm_timePickerLayout" />
 
         <CheckBox
             android:id="@+id/fragment_createalarm_recurring"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="요일별 알람 설정하기"
+            android:text="Recurring Alarm"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/fragment_createalarm_timePickerLayout" />
+            app:layout_constraintTop_toBottomOf="@+id/fragment_createalarm_title" />
 
         <LinearLayout
             android:id="@+id/fragment_createalarm_recurring_options"
@@ -112,7 +118,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="알람 설정완료"
+            android:text="Schedule Alarm"
             app:layout_constraintBottom_toBottomOf="parent"
             tools:layout_editor_absoluteX="133dp" />
 
